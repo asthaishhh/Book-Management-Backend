@@ -53,6 +53,10 @@ const swaggerOptions = {
         url: `http://localhost:5000`, // Your backend URL
         description: "Development server",
       },
+      {
+        url: `https://book-management-backend-keq0.onrender.com`, // Your backend URL
+        description: "Deployed server",
+      },
     ],
     components: {
       securitySchemes: {
